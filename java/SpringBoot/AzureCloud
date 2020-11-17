@@ -1,0 +1,5 @@
+上传到azure记得改数据库地址。
+直接idea里装azure插件。不用web.config.用了老报错。
+前端请求的地址竟然是项目所在的url..不是ip...也不用加端口号
+总结一下就是，前端 访问地址改成云端项目地址然后 npm run build. 复制build下所有的文件到resource下的public文件夹。然后后端 数据库地址改到网上。用azure插件直接推到网上
+血泪。。。。
