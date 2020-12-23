@@ -6,3 +6,5 @@ alter table sign_customer add COLUMN update_time timestamp NULL DEFAULT CURRENT_
 建表自动增加时间戳
 create_time datetime DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
 update_time datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+
+ID INTEGER(11) ZEROFILL AUTO_INCREMENT 
