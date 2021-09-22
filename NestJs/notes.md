@@ -12,4 +12,5 @@ imports: [
     }),
   ],
  ```
- do inject when you want use async configuration
+ do inject when you want use async configuration. 
+ApiProperty cannot use type: Enum, use enum: Enum
